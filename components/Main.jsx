@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import InputFile from "./InputFile.jsx";
 import PreviewImage from "./PreviewImage.jsx";
 
@@ -12,10 +12,10 @@ const Main = () => {
             <div className={" flex  justify-center flex-col p-5 h-130 gap-2 "}>
                 <div className={'flex justify-between flex-wrap w-full gap-1 '}>
                     <video className={'object-cover rounded-2xl '} autoPlay muted loop width={'48%'}>
-                        <source src={"../src/assets/upscaler.mp4"} type="video/mp4" />
+                        <source src={"/src/assets/upscaler.mp4"} type="video/mp4" />
                     </video>
                     <video className={'object-cover rounded-2xl  '} autoPlay muted loop width={'48%'}>
-                        <source src={"../src/assets/upScaler2.mp4"} type="video/mp4" />
+                        <source src={"/src/assets/upScaler2.mp4"} type="video/mp4" />
                     </video>
                 </div>
                 <h1 className={'text-white text-4xl font-bold'}>
@@ -27,8 +27,8 @@ const Main = () => {
                 <InputFile setImage={setImage} setLoading={setLoading} setEnhancedImage={setEnhancedImage} />
             </div>
         </div>
-         {image && <PreviewImage image={image} setImage={setImage} loading={loading} setLoading={setLoading} enhancedImage={enhancedImage} />}
-        </>
+        {image && <PreviewImage image={image} setImage={setImage} loading={loading} setLoading={setLoading} enhancedImage={enhancedImage} />}
+    </>
     )
 }
 

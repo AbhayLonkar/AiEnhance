@@ -3,17 +3,17 @@ import Step from './Step'
 
 const stepsInfo = [
   {
-    image: "../src/assets/Step_1.png",
+    image: "/src/assets/Step_1.png",
     title: "1. Upload an Image",
     subtitle: "Click Upload Image or Drag and Drop the image you want to enhance"
   },
   {
-    image: "../src/assets/Step_2.png",
+    image: "/src/assets/Step_2.png",
     title: "2. Compare",
     subtitle: "Compare before and after, this image enhancer works best on pictures with people as the main subject"
   },
   {
-    image: "../src/assets/Step_3.png",
+    image: "/src/assets/Step_3.png",
     title: "3. Download and Share",
     subtitle: "Click the button to download it. It's that simple"
   }
