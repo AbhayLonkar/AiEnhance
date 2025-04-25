@@ -12,10 +12,10 @@ const Main = () => {
             <div className={" flex  justify-center flex-col p-5 h-130 gap-2 "}>
                 <div className={'flex justify-between flex-wrap w-full gap-1 '}>
                     <video className={'object-cover rounded-2xl '} autoPlay muted loop width={'48%'}>
-                        <source src={"/src/assets/upscaler.mp4"} type="video/mp4" />
+                        <source src={"/assets/upscaler.mp4"} type="video/mp4" />
                     </video>
                     <video className={'object-cover rounded-2xl  '} autoPlay muted loop width={'48%'}>
-                        <source src={"/src/assets/upScaler2.mp4"} type="video/mp4" />
+                        <source src={"/assets/upScaler2.mp4"} type="video/mp4" />
                     </video>
                 </div>
                 <h1 className={'text-white text-4xl font-bold'}>
